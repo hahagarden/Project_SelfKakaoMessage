@@ -1,7 +1,6 @@
 # 텍스트 메시지 템플릿 구현
 import json
 import requests
-import os
 import token_def
 
 

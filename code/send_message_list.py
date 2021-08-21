@@ -1,6 +1,5 @@
 import json
 import requests
-import os
 import token_def
 
 KAKAO_TOKEN_FILENAME = "kakao_token.json"  # Token in this file(.json)
