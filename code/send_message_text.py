@@ -4,7 +4,7 @@ import requests
 import token_def
 
 
-KAKAO_TOKEN_FILENAME = "kakao_token.json"  # Token in this file(.json)
+KAKAO_TOKEN_FILENAME = "/git/project_kakao_message/json/kakao_token.json"  # Token in this file(.json)
 
 # To load the saved Token
 tokens = token_def.load_tokens(KAKAO_TOKEN_FILENAME)

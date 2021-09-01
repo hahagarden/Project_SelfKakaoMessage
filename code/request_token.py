@@ -5,7 +5,7 @@ import token_def
 
 KAKAO_APP_KEY = "cc335daa766cc74b3de1b1c372a6cce8"  # REST_API app key
 AUTHORIZATION_CODE = "KG4EbiURUdVXYMa9pYmYrKIW_BZkp7NYPs9oKj-ogtAalTUxcOSWO5BZ_xCjmZSSOUXqhwo9c-wAAAF7oZHGXw"  # once in a run
-KAKAO_TOKEN_FILENAME = "/git/Project_KakaoMessage/json/kakao_token.json"  # Token in this file(.json)
+KAKAO_TOKEN_FILENAME = "/git/project_kakao_message/json/kakao_token.json"  # Token in this file(.json)
 
 # To get Access Token
 tokens = token_def.request_tokens(KAKAO_APP_KEY, AUTHORIZATION_CODE)

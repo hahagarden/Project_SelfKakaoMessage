@@ -2,7 +2,7 @@ import json
 import requests
 import token_def
 
-KAKAO_TOKEN_FILENAME = "kakao_token.json"  # Token in this file(.json)
+KAKAO_TOKEN_FILENAME = "/git/project_kakao_message/json/kakao_token.json"  # Token in this file(.json)
 # 저장된 토큰 정보를 읽어옴
 tokens = token_def.load_tokens(KAKAO_TOKEN_FILENAME)
 
